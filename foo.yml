@@ -1,0 +1,24 @@
+# Micro service foo configuration
+# specific configs for each of micro service
+
+microservice.series:
+  foo:
+    firstconfig: This is a sample of First config of foo micro service
+
+---
+
+spring:
+  profiles: staging
+
+microservice.series:
+  foo:
+    firstconfig: This is a sample of First config of foo micro service for staging ambient
+
+---
+
+spring:
+  profiles: production
+
+microservice.series:
+  foo:
+    firstconfig: This is a sample of First config of foo micro service for production ambient

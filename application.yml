@@ -1,0 +1,24 @@
+# Global configurations for share in all micro services
+
+microservice.series:
+  myconfig: This is a sample of my first global configuration
+
+---
+
+spring:
+  profiles: staging
+
+microservices.series:
+  myconfig: This is a sample of my first globa configuration for ambient of staging
+
+---
+
+spring:
+  profiles: production
+
+microservices.series:
+  myconfig: This is a sample of my first global configuration for ambient of production
+
+
+
+
