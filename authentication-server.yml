@@ -1,0 +1,15 @@
+# Micro service authentication-server configuration
+
+server:
+  port: 8080
+  contextPath: /uaa
+
+---
+
+spring:
+  profiles: staging
+
+---
+
+spring:
+  profiles: production
